@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ENCRIPTADOR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="icono/Logo@2x.ico">
+        <link rel="stylesheet" href="style_index.css">
+        <link rel="stylesheet" href="respon.css">
+        <link rel="stylesheet" media="screen and (max-width:840px) and (min-width:360px)" href="respon.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header" >
+                <img src="img/Logo.png" alt="Imagen logo Alura" class="logo" >
+        </header>
+        <main>
+            <section class="sidebar">
+                    <textarea  id="textBox" class="area" placeholder="Ingrese el texto aquí:"></textarea>
+                    <p>&#128712; Solo letras minúsculas y sin acentos.</p>
+            </section>
+            <section class="derebar">
+                    <div class="cont-munheco">
+                        <img src="img/Muñeco.png" alt="Muñeco de Alura">
+                    </div>
+                    <div class="contenedor-texto">
+                        <strong>Ningún mensaje fue encontrado.</strong>
+                        <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                    </div>
+                    <div class="text-hid" >
+                        <h3>Mensaje encriptado:</h3>
+                        <p id="textoCopiar" class="resultado"></p>
+                    </div>        
+            </section>            
+        </main>   
+        <footer>
+                <button class="boton efecto encriptar"><span>Encriptar</span></button>
+                <button class="boton efecto desencriptar"><span>Desencriptar</span></button>
+                <button id="copiar" class="boton efecto copiar"><span> Copiar</span></button>
+        </footer>
+        <script src="encriptador.js"></script>
+    </body> 
+</html>
+
+

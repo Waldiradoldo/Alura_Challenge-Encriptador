@@ -1,0 +1,27 @@
+@media screen and (max-width:840px) and (min-width:360px) and (max-height:915px) and (min-height:667px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    main{
+        display: block;
+    }
+    .sidebar{
+        width: auto;
+    }
+    .area{
+        font-size: 20px;
+    }
+    .sidebar p{
+        margin: 0 0 0 44px;
+    }
+    .derebar{
+        width: auto;
+    }
+    .boton{
+        width: 110px;
+        font-size: 12px;
+    }
+
+
+}
